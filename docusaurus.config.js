@@ -39,7 +39,9 @@ const config = {
       }),
     ],
   ],
-
+  scripts: [
+    "../js/commentbox.js",
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
