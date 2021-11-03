@@ -23,21 +23,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/note',
-          // Please change this to your repo.
-          // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          routeBasePath: '/notes',
         },
         blog: {
+          routeBasePath: '/',
           showReadingTime: true,
-          path: './blog',
-          routeBasePath: '/', // 将其设置为 '/'。
         },
-        // blog: {
-        // showReadingTime: true,
-        // Please change this to your repo.
-        // editUrl:
-        // 'https://github.com/facebook/docusaurus/edit/main/website/blog/',
-        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -63,49 +54,12 @@ const config = {
             position: 'left',
             label: '筆記',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
-          // {
-          // href: 'https://github.com/facebook/docusaurus',
-          // label: 'GitHub',
-          // position: 'right',
-          // },
+          // { to: '/blog', label: 'Blog', position: 'left' },
         ],
       },
       footer: {
         style: 'light',
-        links: [
-          {
-            // title: '雜記',
-            // items: [
-            //   {
-            //     label: '筆記',
-            //     to: '/docs/intro',
-            //   },
-            // ],
-          },
-          {
-            // title: 'Community',
-            // items: [
-            // {
-            // label: 'Stack Overflow',
-            // href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            // }
-            // ],
-          },
-          {
-            // title: 'More',
-            // items: [
-            //   {
-            //     label: 'Blog',
-            //     to: '/blog',
-            //   },
-            //   {
-            //     label: 'GitHub',
-            //     href: 'https://github.com/facebook/docusaurus',
-            //   },
-            // ],
-          },
-        ],
+        links: [],
         copyright: ` © ${new Date().getFullYear()} DBB , Built with Docusaurus.`,
       },
       prism: {
