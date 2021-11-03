@@ -23,16 +23,21 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',
+          routeBasePath: '/note',
           // Please change this to your repo.
           // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // editUrl:
-          // 'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+          path: './blog',
+          routeBasePath: '/', // 将其设置为 '/'。
         },
+        // blog: {
+        // showReadingTime: true,
+        // Please change this to your repo.
+        // editUrl:
+        // 'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
