@@ -26,7 +26,7 @@ module.exports = {
 
 > Don't forget to delete the existing homepage at ./src/pages/index.js or else there will be two files mapping to the same route!
 
-這邊其實有遇到別的問題。我在更改時，沒有將navbar的超連結改掉(原本有一個 /blog 的連結)，在build的時候會報錯
+這邊其實有遇到別的問題。我在更改時，沒有將 navbar 的超連結改掉(原本有一個 /blog 的連結)，在 build 的時候會報錯
 
 ```
 Error: Docusaurus found broken links!
@@ -43,7 +43,7 @@ Frequent broken links are linking to:
 
 ```
 
-將navbar的錯誤連結拿掉就可以了
+將 navbar 的錯誤連結拿掉就可以了
 
 參考資料：
 [blog-only-mode](https://docusaurus.io/docs/blog#blog-only-mode)
