@@ -3,6 +3,7 @@
   "automergeStrategy": "rebase",
   "packageRules": [
     {
+      "matchUpdateTypes": ["major","minor", "patch"],
       "automerge": true
     }
   ],
