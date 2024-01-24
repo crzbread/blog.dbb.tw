@@ -46,4 +46,4 @@ tags: [hanji]
 
 看起來淚眼汪汪的是因為眼睛發炎 背後沒有什麼令人動容的故事
 
-![cat](IMG_8017.jpg)
+<img src="/img/IMG_8017.jpg" />
