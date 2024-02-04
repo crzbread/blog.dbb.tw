@@ -18,7 +18,7 @@
     "@docusaurus/plugin-google-gtag": "3.1.1",
     "@docusaurus/preset-classic": "3.1.1",
     "@mdx-js/react": "3.0.0",
-    "@svgr/webpack": "5.5.0",
+    "@svgr/webpack": "8.1.0",
     "clsx": "1.2.1",
     "commitizen": "4.3.0",
     "docusaurus-gtm-plugin": "0.0.2",
