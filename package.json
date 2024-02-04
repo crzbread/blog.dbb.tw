@@ -19,7 +19,7 @@
     "@docusaurus/preset-classic": "3.1.1",
     "@mdx-js/react": "3.0.0",
     "@svgr/webpack": "8.1.0",
-    "clsx": "1.2.1",
+    "clsx": "2.1.0",
     "commitizen": "4.3.0",
     "docusaurus-gtm-plugin": "0.0.2",
     "file-loader": "6.2.0",
